@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    display: inline-block;
+    background-color: rgb(36, 211, 36);
+    color: #f4f4f4;
+    padding: 15px 40px;
+    border: 1px solid #3333336b;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#buttonYes {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+#buttonNo {
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(89, 179, 149);
+        color: #fff;
+    }
+}
+
+
+/* .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 115px 200px;
+    background-color: #4CAF50;
+  } */
